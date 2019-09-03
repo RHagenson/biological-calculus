@@ -1,0 +1,62 @@
+{
+  "date": "September 3, 2019",
+  "authors": [
+    {
+      "github": "johndoe",
+      "name": "John Doe",
+      "initials": "JD",
+      "orcid": "XXXX-XXXX-XXXX-XXXX",
+      "twitter": "johndoe",
+      "email": "john.doe@something.com",
+      "affiliations": [
+        "Department of Something, University of Whatever"
+      ],
+      "funders": "Grant XXXXXXXX",
+      "affiliation_numbers": [
+        1
+      ]
+    },
+    {
+      "github": "janeroe",
+      "name": "Jane Roe",
+      "initials": "JR",
+      "orcid": "XXXX-XXXX-XXXX-XXXX",
+      "email": "jane.roe@whatever.edu",
+      "affiliations": [
+        "Department of Something, University of Whatever",
+        "Department of Whatever, University of Something"
+      ],
+      "affiliation_numbers": [
+        1,
+        2
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "affiliation": "Department of Something, University of Whatever",
+      "affiliation_number": 1
+    },
+    {
+      "affiliation": "Department of Whatever, University of Something",
+      "affiliation_number": 2
+    }
+  ],
+  "ci_source": {
+    "provider": "travis",
+    "repo_slug": "RHagenson/biological-calculus",
+    "repo_owner": "RHagenson",
+    "repo_name": "biological-calculus",
+    "commit": "e45bb1f584d6a2c2514b90f8a82d224904006fe5",
+    "triggering_commit": "e45bb1f584d6a2c2514b90f8a82d224904006fe5",
+    "build_url": "https://travis-ci.com/RHagenson/biological-calculus/builds/125767416",
+    "job_url": "https://travis-ci.com/RHagenson/biological-calculus/jobs/230803376",
+    "manuscript_url": "https://RHagenson.github.io/biological-calculus/v/e45bb1f584d6a2c2514b90f8a82d224904006fe5/"
+  },
+  "manuscript_stats": {
+    "reference_counts": {
+      "total": 0
+    },
+    "word_count": 236
+  }
+}
