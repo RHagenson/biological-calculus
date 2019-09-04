@@ -4,11 +4,10 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="author" content="John Doe" />
-  <meta name="author" content="Jane Roe" />
-  <meta name="dcterms.date" content="2019-09-03" />
-  <meta name="keywords" content="markdown, publishing, manubot" />
-  <title>Manuscript Title</title>
+  <meta name="author" content="Ryan A. Hagenson" />
+  <meta name="dcterms.date" content="2019-09-04" />
+  <meta name="keywords" content="biochemistry, system-f" />
+  <title>Biological Calculus</title>
   <style>
       code{white-space: pre-wrap;}
       span.smallcaps{font-variant: small-caps;}
@@ -21,19 +20,85 @@
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">Manuscript Title</h1>
+<h1 class="title">Biological Calculus</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://RHagenson.github.io/biological-calculus/v/e45bb1f584d6a2c2514b90f8a82d224904006fe5/">permalink</a>) was automatically generated from <a href="https://github.com/RHagenson/biological-calculus/tree/e45bb1f584d6a2c2514b90f8a82d224904006fe5">RHagenson/biological-calculus@e45bb1f</a> on September 3, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://RHagenson.github.io/biological-calculus/v/aea15e9338f73371270259f22fa84c56013e3ef7/">permalink</a>) was automatically generated from <a href="https://github.com/RHagenson/biological-calculus/tree/aea15e9338f73371270259f22fa84c56013e3ef7">RHagenson/biological-calculus@aea15e9</a> on September 4, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
-<li><p><strong>John Doe</strong><br> <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" /> <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a> · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" /> <a href="https://github.com/johndoe">johndoe</a> · <img src="images/twitter.svg" class="inline_icon" alt="Twitter icon" /> <a href="https://twitter.com/johndoe">johndoe</a><br> <small> Department of Something, University of Whatever · Funded by Grant XXXXXXXX </small></p></li>
-<li><p><strong>Jane Roe</strong><br> <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" /> <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a> · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" /> <a href="https://github.com/janeroe">janeroe</a><br> <small> Department of Something, University of Whatever; Department of Whatever, University of Something </small></p></li>
+<li><strong>Ryan A. Hagenson</strong><br> <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" /> <a href="https://orcid.org/0000-0001-9750-1925">0000-0001-9750-1925</a> · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" /> <a href="https://github.com/RHagenson">RHagenson</a> · <img src="images/twitter.svg" class="inline_icon" alt="Twitter icon" /> <a href="https://twitter.com/RAHagenson">RAHagenson</a><br> <small> Department of Conservation Genetics, Omaha’s Henry Doorly Zoo and Aquarium </small></li>
 </ul>
 <h2 id="abstract" class="page_break_before">Abstract</h2>
+<p>There must exist a finite set of fundamental operations that define the base of biochemical networks. The composition of these operations present themselves as the seemingly infinite complexity of biological variety. If we can determine this finite set of fundamental operations, we might be able to program biochemical networks like we currently program computers. This paper presents a working theory unifying System F (or <em>second-order lambda calculus</em>) with biochemical constraints to build a theoretical framework for defining such a set of finite fundamental operations.</p>
+<h2 id="introduction">Introduction</h2>
+<h3 id="biology">Biology</h3>
+<p>Biology is practically the study of exceptions to every rule we write, one need only look to the discovery of extremophiles (citation), the early belief that DNA did not have enough variability to be the code of life (citation), or the multitude of natural examples of the otherwise impossible such as minks’ ability to recover from severe skin loss (citation). With this in mind, let us begin by imagining a perfect species in a perfect world with perfect rules without exceptions – we can build from there, but trying to build in all (known) exceptions from the start is an impossibility as we have likely not discovered all biological exceptions. Our perfect species is one that could live immortally within an enclosed system of its own making. The question then becomes not what our species is, but what it is not.</p>
+<p>Things it cannot be:</p>
+<ul>
+<li>Large bodied: requiring an organ system means failure of any part of the system of specialization results in progression towards mortality</li>
+<li>Contain memory of function: reliance on a “bank” of functionality in the form of genes cannot be eternally checked for continued validity</li>
+<li>Permeable: the system must be such that the outside space never perturbs the inside space</li>
+</ul>
+<h3 id="biochemical-networks">Biochemical Networks</h3>
+<p>Biochemical networks define a fuzzy boundary such that, within the same space, there exists no barrier for enzymatic access to small molecules – any enzyme in the same space as a small molecule has some effect on that small molecule and that small molecule has some effect on the enzyme. This relationship is transitive in that it does not matter if the small molecule is brought to act against the enzyme or the enzyme is brought to act upon the small molecule. With this fuzziness, a barrier must be enforced where access between the two halves is limited only to those interaction which have some appreciable effect to actualize.</p>
+<h3 id="system-f">System F</h3>
+<p>System F was independently discovered by Jean-Yves Girard <span class="citation" data-cites="31MrDf8M"><a href="#ref-31MrDf8M" role="doc-biblioref">1</a></span> and John C. Reynolds <span class="citation" data-cites="CkcfK5kN"><a href="#ref-CkcfK5kN" role="doc-biblioref">2</a></span> and is perhaps most notably used by the programming languages Haskell and ML. As a form of typed lambda calculus, it extends the work of Alfonzo Church <span class="citation" data-cites="rTK1w3FS"><a href="#ref-rTK1w3FS" role="doc-biblioref">3</a></span>, summarized in Table <a href="#tbl:lambda-calculus">1</a>, to allow for parametric polymorphism. Parametric polymorphism allows for treating similar concrete types generically such that it becomes possible to define operations that work on matches to a unified abstract functional profile (abstract type).</p>
+<a name="tbl:lambda-calculus"></a>
+<table>
+<caption><span>Table 1:</span> Alfonzo Church’s lambda calculus <span class="citation" data-cites="UmRc2UHi"><a href="#ref-UmRc2UHi" role="doc-biblioref">4</a></span> . </caption>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 37%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Syntax</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>x</code></td>
+<td>Variable</td>
+<td>A character or string representing a parameter or mathematical/logical value.</td>
+</tr>
+<tr class="even">
+<td><code>λx.M</code></td>
+<td>Abstraction</td>
+<td>Function definition (M is a lambda term). The variable <code>x</code> becomes bound in the expression.</td>
+</tr>
+<tr class="odd">
+<td><code>(M N)</code></td>
+<td>Application</td>
+<td>Applying a function to an argument. <code>M</code> and <code>N</code> are lambda terms.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="references" class="page_break_before">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" role="doc-bibliography">
-
+<div id="ref-31MrDf8M">
+<p>1. <strong>Interprétation fonctionnelle et élimination des coupures de l’arithmétique d’ordre supérieur</strong><br />
+Jean-Yves Girard<br />
+(1972) <a href="https://www.cs.cmu.edu/~kw/scans/girard72thesis.pdf">https://www.cs.cmu.edu/~kw/scans/girard72thesis.pdf</a></p>
+</div>
+<div id="ref-CkcfK5kN">
+<p>2. <strong>Towards a theory of type structure</strong><br />
+John Reynolds<br />
+(1974) <a href="https://link.springer.com/chapter/10.1007%2F3-540-06859-7_148">https://link.springer.com/chapter/10.1007%2F3-540-06859-7_148</a></p>
+</div>
+<div id="ref-rTK1w3FS">
+<p>3. <strong>A Set of Postulates for the Foundation of Logic</strong><br />
+Alonzo Church<br />
+<em>The Annals of Mathematics</em> (1932-04) <a href="https://doi.org/b5bv99">https://doi.org/b5bv99</a><br />
+DOI: <a href="https://doi.org/10.2307/1968337">10.2307/1968337</a></p>
+</div>
+<div id="ref-UmRc2UHi">
+<p>4. <strong>Lambda calculus</strong><br />
+Wikipedia<br />
+(2019-08-19) <a href="https://en.wikipedia.org/w/index.php?title=Lambda_calculus&amp;oldid=911560037">https://en.wikipedia.org/w/index.php?title=Lambda_calculus&amp;oldid=911560037</a></p>
+</div>
 </div>
 <!-- default theme -->
 
