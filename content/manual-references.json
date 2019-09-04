@@ -18,5 +18,43 @@
       "family": "Himmelstein"
     }
   ]
+},
+{
+  "id": "raw:Reynolds1974",
+  "type": "article",
+  "URL": "https://link.springer.com/chapter/10.1007%2F3-540-06859-7_148",
+  "title": "Towards a theory of type structure",
+  "issued": {
+    "date-parts": [
+      [
+        1974
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "John",
+      "family": "Reynolds"
+    }
+  ]
+},
+{
+  "id": "raw:Girard1972",
+  "type": "article",
+  "URL": "https://www.cs.cmu.edu/~kw/scans/girard72thesis.pdf",
+  "title": "Interprétation fonctionnelle et élimination des coupures de l'arithmétique d'ordre supérieur",
+  "issued": {
+    "date-parts": [
+      [
+        1972
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Jean-Yves",
+      "family": "Girard"
+    }
+  ]
 }
 ]
