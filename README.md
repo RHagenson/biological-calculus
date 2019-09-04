@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/RHagenson/biological-calculus/tree/gh-pages) branch hosts the contents of this directory at https://RHagenson.github.io/biological-calculus/.
-The permalink for this webpage version is https://RHagenson.github.io/biological-calculus/v/e45bb1f584d6a2c2514b90f8a82d224904006fe5/.
+The permalink for this webpage version is https://RHagenson.github.io/biological-calculus/v/aea15e9338f73371270259f22fa84c56013e3ef7/.
 To redirect to the permalink for the latest manuscript version at anytime, use the link https://RHagenson.github.io/biological-calculus/v/freeze/.
 
 ## Files
@@ -36,4 +36,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`e45bb1f584d6a2c2514b90f8a82d224904006fe5`](https://github.com/RHagenson/biological-calculus/commit/e45bb1f584d6a2c2514b90f8a82d224904006fe5).
+[`aea15e9338f73371270259f22fa84c56013e3ef7`](https://github.com/RHagenson/biological-calculus/commit/aea15e9338f73371270259f22fa84c56013e3ef7).
