@@ -1,7 +1,7 @@
 ---
 author-meta:
 - Ryan A. Hagenson
-date-meta: '2019-09-04'
+date-meta: '2019-09-16'
 keywords:
 - biochemistry
 - system-f
@@ -16,10 +16,10 @@ title: Biological Calculus
 
 <small><em>
 This manuscript
-([permalink](https://RHagenson.github.io/biological-calculus/v/aea15e9338f73371270259f22fa84c56013e3ef7/))
+([permalink](https://RHagenson.github.io/biological-calculus/v/285ef605ef045dc575ba31cf6df0e334046f36c6/))
 was automatically generated
-from [RHagenson/biological-calculus@aea15e9](https://github.com/RHagenson/biological-calculus/tree/aea15e9338f73371270259f22fa84c56013e3ef7)
-on September 4, 2019.
+from [RHagenson/biological-calculus@285ef60](https://github.com/RHagenson/biological-calculus/tree/285ef605ef045dc575ba31cf6df0e334046f36c6)
+on September 16, 2019.
 </em></small>
 
 ## Authors
@@ -76,9 +76,9 @@ Parametric polymorphism allows for treating similar concrete types generically s
 
 | Syntax  | Name        | Description |
 |---------|-------------|-------------|
-| `x`     | Variable    | A character or string representing a parameter or mathematical/logical value. |
-| `λx.M`  | Abstraction | Function definition (M is a lambda term). The variable `x` becomes bound in the expression. |
-| `(M N)` | Application | Applying a function to an argument. `M` and `N` are lambda terms. |
+| $$x$$     | Variable    | A character or string representing a parameter or mathematical/logical value. |
+| $$\lambda x.M$$  | Abstraction | Function definition (M is a lambda term). The variable `x` becomes bound in the expression. |
+| $$(M N)$$ | Application | Applying a function to an argument. `M` and `N` are lambda terms. |
 
 Table: Alfonzo Church's lambda calculus @UmRc2UHi . {#tbl:lambda-calculus}
 
