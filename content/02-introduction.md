@@ -27,8 +27,8 @@ Parametric polymorphism allows for treating similar concrete types generically s
 
 | Syntax  | Name        | Description |
 |---------|-------------|-------------|
-| `x`     | Variable    | A character or string representing a parameter or mathematical/logical value. |
-| `λx.M`  | Abstraction | Function definition (M is a lambda term). The variable `x` becomes bound in the expression. |
-| `(M N)` | Application | Applying a function to an argument. `M` and `N` are lambda terms. |
+| $$x$$     | Variable    | A character or string representing a parameter or mathematical/logical value. |
+| $$\lambda x.M$$  | Abstraction | Function definition (M is a lambda term). The variable `x` becomes bound in the expression. |
+| $$(M N)$$ | Application | Applying a function to an argument. `M` and `N` are lambda terms. |
 
 Table: Alfonzo Church's lambda calculus @url:https://en.wikipedia.org/wiki/Lambda_calculus . {#tbl:lambda-calculus}
