@@ -1,5 +1,5 @@
 {
-  "date": "September 16, 2019",
+  "date": "September 17, 2019",
   "authors": [
     {
       "github": "RHagenson",
@@ -27,11 +27,11 @@
     "repo_slug": "RHagenson/biological-calculus",
     "repo_owner": "RHagenson",
     "repo_name": "biological-calculus",
-    "commit": "285ef605ef045dc575ba31cf6df0e334046f36c6",
-    "triggering_commit": "285ef605ef045dc575ba31cf6df0e334046f36c6",
-    "build_url": "https://travis-ci.com/RHagenson/biological-calculus/builds/127869538",
-    "job_url": "https://travis-ci.com/RHagenson/biological-calculus/jobs/236143648",
-    "manuscript_url": "https://RHagenson.github.io/biological-calculus/v/285ef605ef045dc575ba31cf6df0e334046f36c6/"
+    "commit": "8989c3016687ea1250524f15fe24e211b1872b36",
+    "triggering_commit": "8989c3016687ea1250524f15fe24e211b1872b36",
+    "build_url": "https://travis-ci.com/RHagenson/biological-calculus/builds/128061597",
+    "job_url": "https://travis-ci.com/RHagenson/biological-calculus/jobs/236562855",
+    "manuscript_url": "https://RHagenson.github.io/biological-calculus/v/8989c3016687ea1250524f15fe24e211b1872b36/"
   },
   "manuscript_stats": {
     "reference_counts": {
